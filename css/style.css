@@ -221,12 +221,16 @@
 
 main {
     background: linear-gradient(var(--secondary-black), var(--black));
+    border-bottom: 1px solid var(--dark-grey);
 }
+
 
 .custom-card-uno {
     height: 500px;
     border: 1px solid var(--francia-berna);
     border-radius: 20px;
+    background: linear-gradient(var(--dg-negro-dos), var(--dg-negro-uno));
+    width: 32%;
 }
 
 .custom-icon-card-uno{
@@ -242,4 +246,51 @@ main {
     color: var(--dark-grey);
     font-size: 60px;
     line-height: 60px;
+}
+
+.custom-h3 {
+    font-family: var(--main-text);
+    font-weight: 700;
+    color: var(--dark-white);
+}
+
+.custom-row-cards{
+    width: 80%;
+}
+
+.custom-banner {
+    max-width: 100%;
+    width: 100%;
+}
+
+.custom-numbers {
+    max-width: 100%;
+    width: 100%;
+}
+
+.custom-h4 {
+    color: var(--francia-berna);
+    font-family: var(--main-text);
+    font-weight: 900;
+    font-size: 60px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.custom-aside{
+    background: var(--black);
+}
+
+.foto-cv {
+    border-radius: 20px;
+    border: 1px solid var(--francia-berna);
+}
+
+.custom-cv {
+    height: 300px;
+    max-height: 300px;
+    border: 1px solid var(--francia-berna);
+    border-radius: 20px;
+    background: linear-gradient(var(--dg-negro-dos), var(--dg-negro-uno));
 }
