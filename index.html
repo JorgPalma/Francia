@@ -122,7 +122,7 @@
             </div>
         </div>
     </main>
-    <aside class="container-fluid custom-aside">
+    <aside class="container-fluid custom-aside pb-5">
         <div class="row custom-aside-row">
             <div class="col-12">
                 <h2 class="custom-h2 text-center mt-5 mb-5">Mi <span class="custom-span">Formación</span> y <span class="custom-span">Experiencia</span></h2>
@@ -132,12 +132,131 @@
             <div class="col-3">
                 <img class="foto-cv" src="img/2.jpg" alt="FranciaCurriculum" srcset="">
             </div>
-            <div class="col-6 custom-cv">
-
+            <div class="col-6 custom-cv p-4 d-flex justify-content-start flex-wrap mb-5">
+                <div class="custom-cv-header d-flex">
+                    <h3 class="custom-h3 d-flex flex-wrap align-items-center"><i class="fa-solid fa-bullseye me-2"></i> Mis <span class="custom-span ms-1">Objetivos</span></h3>
+                </div>
+                <div class="custom-cv-text d-flex justify-content-center align-items-center">
+                    <p class="custom-text d-inline-block">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sed interdum metus, 
+                        sit amet interdum urna. Nunc tempus efficitur ante, id interdum ante ornare eget. 
+                        amet interdum urna. Nunc tempus efficitur ante, id interdum ante ornare eget.
+                    </p>
+                </div>
             </div>
         </div>
-
+        <div class="row d-flex justify-content-center">
+            <div class="col-3">
+                <a class="custom-button-cv d-inline-block" href="#curriculum">Lee mi Currículum completo <i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+            </div>
+        </div>
     </aside>
+    <div class="container-fluid custom-container-blog">
+        <div class="row custom-blog-foto d-flex justify-content-center flex-wrap">  
+            <div class="col-6 pt-4 pb-5 d-flex justify-content-center">
+                <img src="img/FrancIAblog.png" alt="BlogDeFrancia">
+            </div>
+        </div>
+        <div class="row custom-blog-landing justify-content-center">
+            <div class="col-7">
+                <h3 class="custom-h2">Artículo <span class="custom-span">Destacado</span></h3>
+                <div class="custom-highlight p-3 d-flex justify-content-between flex-wrap">
+                    <div class="custom-section-left d-flex flex-wrap">
+                        <a href="#" class="custom-section d-inline-block align-self-start mb-2">Entradas</a>
+                        <article class="custom-title-article">
+                            <h2 class="custom-h3">El Futuro del Coaching</h2>
+                            <p class="custom-text align-self-end"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo aliquam doloremque cupiditate necessitatibus dolor eligendi! Eveniet, nihil neque! Doloremque similique ipsum voluptatem labore! Ut odio doloribus, quis perferendis assumenda expedita.</p>
+                        </article>
+                    </div>
+                    <div class="custom-section-right d-flex flex-wrap pe-3">
+                        <p class="custom-date pe-3"><i class="fa-solid fa-calendar-days"></i> 2 de Septiembre de 2025</p>
+                        <a class="custom-large-button text-center custom-button" href="#">Leer Más <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5 mb-5">
+            <div class="col-12">
+                <h3 class="custom-h3 text-center">¿Te interesa <span class="custom-span">aprender</span> más?</h3>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <div class="col-3">
+                <a class="custom-button-cv d-inline-block" href="#blog">Ir al Blog de FrancIA <i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid custom-contact">
+        <div class="row d-flex justify-content-center pt-4 pb-4">
+            <div class="col-12">
+                <h2 class="custom-h2 text-center">Iniciemos la <span class="custom-span">Conversación</span></h2>
+            </div>
+            <div class="col-5 mt-4">
+                <p class="custom-text text-center">¿Quieres conocer más acerca de mi trabajo? ¿Quieres intercambiar ideas acerca de tu industria o tu proyecto?
+                    <br>
+                    <span class="custom-span text-center">¡Conectemos!</span>
+                </p>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <div class="col-2 d-flex justify-content-end">
+                <img class="custom-img-contact" src="img/contactFrancia.png" alt="" srcset="">
+            </div>
+            <div class="col-5 custom-container-form p-3 d-flex justify-content-center">
+                <h3 class="custom-h3">Envía tu mensaje</h3>
+                <form>
+                    <label class="custom-text" for="Nombre">Nombre</label>
+                    <input class="border-0 shadow-none" type="text" name="Nombre" id="Nombre" placeholder="Francia Berna">
+                    <br>
+                    <label class="custom-text" for="Email">Email</label>
+                    <input class="border-0 shadow-none" type="email" name="Email" id="Email" placeholder="ejemplo@mail.com">
+                    <label class="custom-text" for="Mensaje">Mensaje</label>
+                    <textarea class="custom-mensaje border-0 shadow-none" name="Mensaje" id="Mensaje" rows="5" cols="50" placeholder="Escribe aquí tu mensaje..."></textarea>
+                    <a class="custom-large-button text-center custom-button d-inline-block mt-2" href="#">Enviar Mensaje <i class="fa-solid fa-paper-plane"></i></a>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer class="container-fluid custom-footer px-5">
+        <div class="row d-flex justify-content-center ps-5">
+            <div class="col-3 justify-content-start">
+                <h2 class="custom-h2 pt-3"><span class="custom-span">Francia Berna</span></h2>
+                <p class="custom-text">
+                    Ingeniera Informática <br> Líder en Data Science, BI & Storytelling <br> Docente, Speaker & Coach <br> Apasionada por la innovación, el aprendizaje y las personas
+                </p>
+            </div>
+            <div class="col-4 pt-4 justify-content-center">
+                <h6 class="custom-h6 text-center">Enlaces Rápidos</h6>
+                <div class="custom-footer-link d-flex justify-content-center">
+                    <ul class="custom-list">
+                        <li class="custom-list-item">
+                            <a href="#">Inicio</a>
+                        </li>
+                        <li class="custom-list-item">
+                            <a href="#">Logros</a>
+                        </li>
+                        <li class="custom-list-item">
+                            <a href="#">Sobre Mí</a>
+                        </li>
+                        <li class="custom-list-item">
+                            <a href="#">Currículum</a>
+                        </li>
+                        <li class="custom-list-item">
+                            <a href="#">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-3 pt-4 d-flex justify-content-center flex-wrap">
+                <h6 class="custom-h6 text-center d-block">Sígueme</h6>
+                <a class="custom-icon-a" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/franciabernasanchez/">
+                    <div class="custom-icon-footer d-flex justify-content-center align-items-center">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </footer>
 
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
