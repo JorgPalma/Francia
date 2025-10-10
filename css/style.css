@@ -633,3 +633,21 @@ main {
     font-weight: 800;
     padding-right: 10px;
 }
+
+.custom-blog{
+    height: 90vh;
+    background: var(--dark-grey);
+}
+
+.tablet{
+    height: 85vh;
+    width: 75%;
+    background: var(--black);
+    border-radius: 50px;
+}
+
+.tablet-screen {
+    width: 92%;
+    height: 88%;
+    background: white;
+}
