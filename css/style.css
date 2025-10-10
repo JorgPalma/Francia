@@ -285,11 +285,11 @@ main {
 .foto-cv {
     border-radius: 20px;
     border: 1px solid var(--francia-berna);
+    height: 40vh;
 }
 
 .custom-cv {
-    height: 300px;
-    max-height: 300px;
+    height: 40vh;
     border: 1px solid var(--francia-berna);
     border-radius: 20px;
     background: linear-gradient(var(--dg-negro-dos), var(--dg-negro-uno));
@@ -525,4 +525,111 @@ main {
 .custom-icon-a{
     text-decoration: none;
     height: 70px;
+}
+
+.custom-card-dos {
+    border: 1px solid var(--francia-berna);
+    border-radius: 20px;
+    background: linear-gradient(var(--dg-negro-uno), var(--dg-negro-dos));
+    max-width: 100%;
+    padding: 20px;
+}
+
+.custom-curriculum-card {
+    height: 75px;
+    background: var(--dark-grey);
+    border-radius: 10px;
+    border: 1px solid var(--francia-berna);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.custom-curriculum-container{
+    width: 100%;
+    
+}
+
+.custom-icon-curriculum {
+    width: 55px;
+    height: 55px;
+}
+
+.custom-icon-curriculum  i {
+    width: 100%;
+    height: 100%;
+    font-size: 35px;
+    line-height: 35px;
+    text-align: center;
+    background: var(--francia-berna);
+    color: var(--secondary-black);
+    border-radius: 5px;
+    padding: 10px 0;
+}
+
+.custom-curriculum-content{
+    width: 94%;
+    padding: 2px 15px;
+    height: 55px;
+    line-height: 25px;
+}
+
+.custom-h5 {
+    font-family: var(--secondary-text);
+    color: var(--dark-white);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.custom-textc {
+    font-family: var(--secondary-text);
+    color: var(--dark-white);
+    display: inline-block;
+    width: 90%;
+}
+
+.custom-date {
+    display: inline-block;
+    width: 10%;
+    color: var(--francia-berna);
+    font-family: var(--secondary-text);
+    font-weight: 800;
+}
+
+.custom-experience-card {
+    background: var(--dark-grey);
+    width: 99%;
+    border-radius: 10px;
+    border: 1px solid var(--francia-berna);
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.custom-experience-card-header-icon {
+    height: 80px;
+    width: 80px;
+    border-radius: 5px;
+    background: var(--francia-berna);
+    text-align: center;
+    font-size: 40px;
+    padding-top:10px;
+}
+
+.custom-experience-card-title{
+    width: calc(100% - 80px);
+    height: 80px;
+    padding-left: 10px;
+}
+
+.custom-textc2 {
+    font-family: var(--secondary-text);
+    color: var(--dark-white);
+    display: inline-block;
+    width: 100%;
+}
+.custom-date2 {
+    float: right;
+    color: var(--francia-berna);
+    font-family: var(--secondary-text);
+    font-weight: 800;
+    padding-right: 10px;
 }
